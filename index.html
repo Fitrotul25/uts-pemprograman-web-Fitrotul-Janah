@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Kue Kesukaan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .cake-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .cake-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .cake-card h3 {
+            color: #ff6b6b;
+            margin-top: 0;
+        }
+        
+        img {
+            width: 100%; /* Mengatur lebar gambar agar responsif */
+            height: auto; /* Mempertahankan rasio aspek */
+            border-radius: 5px;
+        }
+        
+        .cake-title {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daftar Kue Kesukaan</h1>
+    </header>
+    <div class="container">
+        <div class="cake-grid">
+            <div class="cake-card">
+                <img src="Cheese Cake.jpeg" alt="Cheese Cake">
+                <div class="cake-title">Cheese Cake</div>
+            </div>
+            <div class="cake-card">
+                <img src="Donat.jpeg" alt="Donat">
+                <div class="cake-title">Donat</div>
+            </div>
+            <div class="cake-card">
+                <img src="kue Mochi.jpeg" alt="Kue Mochi">
+                <div class="cake-title">Kue Mochi</div>
+            </div>
+            <div class="cake-card">
+                <img src="Cupcake Vanilla.jpeg" alt="Cupcake Vanilla">
+                <div class="cake-title">Cupcake Vanilla</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
